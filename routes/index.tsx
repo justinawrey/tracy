@@ -1,9 +1,12 @@
+import ThemePicker from "../islands/theme-picker.tsx";
+
 export default function Home() {
   return (
-    <div class="p-4 mx-auto max-w-screen-md">
-      <p class="my-6">
+    <>
+      <p class="text-gray-800 bg-white dark:(text-white bg-gray-800)">
         Hello, Fresh!
       </p>
-    </div>
+      <ThemePicker />
+    </>
   );
 }
